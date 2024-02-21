@@ -1,6 +1,6 @@
 {
   "server": {
-    "host": "http://popcornbackendapi.movizrate.cloud",
+    "host": "http://popcornapi.movizrate.cloud",
     "port": 7000
   },
   "auth": {
