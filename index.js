@@ -11,8 +11,8 @@ const port = config.server.port;
 app.use(cors());
 app.use(express.json());
 
-app.get("/", async ()=> {
-  return "<h1>Popcorn API</h1>"
+app.get("/", async (req, res)=> {
+  res.send("POPCORN API")
 })
 
 app.use("/api/auth", require("./routes/UserAuth"));
