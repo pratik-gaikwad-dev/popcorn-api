@@ -25,7 +25,7 @@ docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
 docker push pratikgaikwad/$IMAGE
 
 echo "****************************************************************"
-echo "Restarting docker compose "
+echo "Restarting docker compose"
 echo "****************************************************************"
 cd /var/jenkins_home/popcorn
 
