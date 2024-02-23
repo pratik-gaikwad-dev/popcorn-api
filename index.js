@@ -5,6 +5,7 @@ const config = require("./config.json");
 connect();
 const app = express();
 
+
 const host = config.server.host;
 const port = config.server.port;
 
