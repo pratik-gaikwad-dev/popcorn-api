@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", async (req, res)=> {
-  res.send("POPCORN API IS RUNNING HELTHY")
+  res.send("POPCORN API IS RUNNING")
 })
 
 app.use("/api/auth", require("./routes/UserAuth"));
