@@ -1,4 +1,4 @@
-# #!/bin/bash
+#!/bin/bash
 
 IMAGE=$IMAGE_NAME
 
